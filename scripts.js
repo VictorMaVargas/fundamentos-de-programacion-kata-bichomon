@@ -7,4 +7,7 @@ let pokimon = document.getElementsByClassName("infocard-list infocard-list-pkmn-
 let nodosImagenes = document.querySelectorAll(".infocard-lg-img");
 console.log(nodosImagenes);
 
+let dominio = document.querySelector(".mainheader, .grid-container, .header-logo").innerHTML;
+console.log(dominio);
+
 console.log(document.title);
