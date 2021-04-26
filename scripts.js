@@ -10,9 +10,16 @@ let pokimon = document.getElementsByClassName("infocard-list infocard-list-pkmn-
 // URL de la página
 let direccion = document.URL;
 console.log(direccion);
+
+/* let dir = window.location.hash;
+console.log(dir); */
+
 //Dominio de la página
 let dominio = document.domain;
-console.log(dominio)
+console.log(dominio);
+
+/* let dom = window.location.host;
+console.log(dom); */
 
 /* let dominio2 = document.querySelector(".mainheader, .grid-container, .header-logo").innerHTML;
 console.log(dominio2); */
